@@ -14,10 +14,10 @@ describe Calculator do
 	it 'Add 2 numbers' do
 		@calculator.Add("1,2").must_equal 3
 	end
-	it 'Add 2 numbers' do
+	it 'Add 3 numbers' do
 		@calculator.Add("1,2,3").must_equal 6
 	end
-	it 'Add 2 numbers' do
+	it 'Add 5 numbers' do
 		@calculator.Add("1,2,3,4,5").must_equal 15
 	end
 end
