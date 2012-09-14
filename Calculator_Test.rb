@@ -14,5 +14,8 @@ describe Calculator do
 	it 'Add 2 numbers' do
 		@calculator.Add("1,2").must_equal 3
 	end
+	it 'Add 2 numbers' do
+		@calculator.Add("1,2,3").must_equal 3
+	end
 
 end
