@@ -5,7 +5,8 @@ class Calculator
 		if numbers == ""
 			return result
 		else
-
+			arr = numbers.split(",")
+			arr.each { |number| result = result + number.to_i }
 		end
 		return result
 	end
